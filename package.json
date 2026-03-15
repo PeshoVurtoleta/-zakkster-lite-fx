@@ -1,0 +1,51 @@
+{
+  "name": "@zakkster/lite-fx",
+  "author": "Zahary Shinikchiev <shinikchiev@yahoo.com>",
+  "version": "1.0.1",
+  "description": "Complete web VFX engine — deterministic, zero-GC, OKLCH-native particles with force fields, emitter shapes, and preset recipes.",
+  "type": "module",
+  "main": "FXSystem.js",
+  "types": "FXSystem.d.ts",
+  "exports": {
+    ".": {
+      "types": "./FXSystem.d.ts",
+      "import": "./FXSystem.js",
+      "default": "./FXSystem.js"
+    }
+  },
+  "files": [
+    "FXSystem.js",
+    "FXSystem.d.ts",
+    "README.md"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@zakkster/lite-soa-particle-engine": "^1.0.0",
+    "@zakkster/lite-random": "^1.0.0"
+  },
+  "peerDependencies": {
+    "@zakkster/lite-color": "^1.0.0",
+    "@zakkster/lite-lerp": "^1.0.0"
+  },
+  "homepage": "https://github.com/PeshoVurtoleta/-zakkster-lite-fx#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeshoVurtoleta/-zakkster-lite-fx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PeshoVurtoleta/-zakkster-lite-fx/issues",
+    "email": "shinikchiev@yahoo.com"
+  },
+  "keywords": [
+    "vfx",
+    "particles",
+    "effects",
+    "force-field",
+    "deterministic",
+    "oklch",
+    "canvas",
+    "game",
+    "zero-gc",
+    "soa"
+  ]
+}
