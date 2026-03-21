@@ -1,7 +1,7 @@
 {
   "name": "@zakkster/lite-fx",
   "author": "Zahary Shinikchiev <shinikchiev@yahoo.com>",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Complete web VFX engine — deterministic, zero-GC, OKLCH-native particles with force fields, emitter shapes, and preset recipes.",
   "type": "module",
   "main": "FXSystem.js",
@@ -27,13 +27,13 @@
     "@zakkster/lite-color": "^1.0.0",
     "@zakkster/lite-lerp": "^1.0.0"
   },
-  "homepage": "https://github.com/PeshoVurtoleta/-zakkster-lite-fx#readme",
+  "homepage": "https://github.com/PeshoVurtoleta/lite-fx#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PeshoVurtoleta/-zakkster-lite-fx.git"
+    "url": "git+https://github.com/PeshoVurtoleta/lite-fx.git"
   },
   "bugs": {
-    "url": "https://github.com/PeshoVurtoleta/-zakkster-lite-fx/issues",
+    "url": "https://github.com/PeshoVurtoleta/lite-fx/issues",
     "email": "shinikchiev@yahoo.com"
   },
   "keywords": [
