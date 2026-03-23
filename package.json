@@ -1,7 +1,7 @@
 {
   "name": "@zakkster/lite-fx",
   "author": "Zahary Shinikchiev <shinikchiev@yahoo.com>",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Complete web VFX engine — deterministic, zero-GC, OKLCH-native particles with force fields, emitter shapes, and preset recipes.",
   "type": "module",
   "main": "FXSystem.js",
@@ -16,6 +16,7 @@
   "files": [
     "FXSystem.js",
     "FXSystem.d.ts",
+    "llms.txt",
     "README.md"
   ],
   "license": "MIT",
